@@ -1,0 +1,18 @@
+
+
+<?php
+global $post;
+$args = array( 'posts_per_page' => 3, 'category_name' => 'blogi' );
+$myposts = get_posts( $args );
+foreach ( $myposts as $post ) : 
+  setup_postdata( $post ); ?>
+ 
+<!-- HTML TÄHÄN -->
+<a href="<?php the_permalink(); ?>"><h2><?php the_title();?></h2></a>
+<?php the_post_thumbnail(); ?>
+<p><?php the_excerpt(); ?></p>
+
+
+<?php endforeach;
+wp_reset_postdata(); ?>
+

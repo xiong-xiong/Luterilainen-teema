@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0px;
+  -webkit-padding-start: 0px;
+  -webkit-margin-after: 0px; }
+
+body {
+  background: url("img/snow.png");
+  margin: 0;
+  padding: 0;
+  font-family: "leipatekstifontti";
+  color: #161A20; }
+
+.container {
+  margin: auto;
+  width: 80%;
+  max-width: 1300px; }
+  @media screen and (max-width: 990px) {
+    .container {
+      background: none; } }
+
+img {
+  width: 100%;
+  height: auto; }
+
+h1, h2 {
+  font-family: "otsikkofontti";
+  color: #161A20; }
+
+h3, h4 {
+  font-family: "otsikkofontti";
+  color: #161A20;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.03em; }
+
+a {
+  color: #161A20; }
+  a:hover {
+    color: #F63F1B; }
+
+p {
+  text-align: justify;
+  text-justify: auto;
+  font-size: 16px; }
+  p a {
+    color: #F63F1B; }
+
+.field-wrap input[type="submit"], .field-wrap input[type="button"], .field-wrap button {
+  color: white !important;
+  padding: 10px 20px !important;
+  background: #F63F1B !important;
+  border: 0;
+  border-radius: 20px; }
+
+.field-wrap textarea {
+  border-radius: 20px;
+  border: 1px solid #F4F2E9;
+  padding: 10px; }
+.field-wrap input[type="text"] {
+  border-radius: 20px;
+  border: 1px solid #F4F2E9;
+  padding: 5px 10px; }
+.field-wrap input[type="email"] {
+  border-radius: 20px;
+  border: 1px solid #F4F2E9;
+  padding: 5px 10px; }
+
+#tribe-events-content {
+  text-align: center;
+  float: none; }
+
+.tribe-events-list .tribe-events-event-image + div.tribe-events-content {
+  text-align: center;
+  float: none;
+  width: 100%; }
+  .tribe-events-list .tribe-events-event-image + div.tribe-events-content img {
+    display: block; }
+
+.page-numbers {
+  padding: 3px 10px;
+  border-radius: 40px; }
+
+.page-numbers.current {
+  background: #F63F1B;
+  color: white; }
+
+.tribe-events-event-image {
+  text-align: center; }
+  .tribe-events-event-image img {
+    max-width: 600px; }
+
+.fa-chevron-right, .fa-chevron-left {
+  background: #F63F1B;
+  width: 25px;
+  border-radius: 55px;
+  height: 25px;
+  line-height: 25px;
+  color: white;
+  text-align: center; }
+  .fa-chevron-right a, .fa-chevron-left a {
+    color: white; }

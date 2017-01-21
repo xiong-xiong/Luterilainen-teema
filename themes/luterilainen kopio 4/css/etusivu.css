@@ -1,0 +1,61 @@
+.nostoicon {
+  font-size: 80px;
+  color: dimgrey; }
+
+.paanosto {
+  padding: 20px;
+  margin: 0px 40px 0px 40px; }
+  .paanosto h2 {
+    text-align: center; }
+  .paanosto .col-md-6 {
+    padding-left: 0; }
+
+.nosto {
+  text-align: center; }
+
+.nostoblock {
+  background: white;
+  min-height: 350px; }
+
+.nostoblock-kuva {
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: #161A20; }
+
+.nostot {
+  margin: 0px 40px 0px 40px;
+  padding: 0px 5px; }
+
+.tribe-events-list-widget-events {
+  list-style: none; }
+
+#pyhawidgetH2 {
+  margin-top: 0;
+  padding-top: 20px; }
+
+.pyhaikoni {
+  font-size: 60px;
+  color: #F63F1B;
+  text-align: center;
+  padding-top: 20px; }
+
+.tribe-events-widget-link {
+  text-transform: uppercase;
+  font-family: "valikkofontti";
+  text-align: center;
+  font-size: 12px; }
+  .tribe-events-widget-link a {
+    color: #F63F1B; }
+
+.iskulause .textwidget {
+  font-family: "valikkofontti";
+  font-style: italic;
+  font-size: 15px;
+  color: #161A20;
+  text-transform: uppercase; }
+  .iskulause .textwidget em {
+    font-style: normal;
+    text-transform: uppercase;
+    display: block;
+    color: #F63F1B; }

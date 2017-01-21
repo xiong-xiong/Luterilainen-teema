@@ -1,0 +1,76 @@
+.post-categories {
+  float: left;
+  display: inline;
+  list-style: none; }
+
+.singlemeta {
+  font-family: "valikkofontti";
+  color: grey;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 20px; }
+  .singlemeta a {
+    font-family: "valikkofontti";
+    color: grey;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #F63F1B; }
+
+.single-aside-right {
+  margin-top: 340px; }
+  @media screen and (max-width: 990px) {
+    .single-aside-right {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #F8F8F8; } }
+
+.author {
+  text-transform: uppercase;
+  color: #F63F1B;
+  font-family: "valikkofontti"; }
+  .author a {
+    text-transform: uppercase;
+    color: #F63F1B;
+    font-family: "valikkofontti"; }
+
+.author-meta {
+  font-family: "valikkofontti"; }
+
+.author-avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 90px; }
+
+.tagit a {
+  color: #F63F1B;
+  border: 1px solid #F63F1B;
+  border-radius: 4px;
+  padding: 1px 3px;
+  margin: 2px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "valikkofontti";
+  font-size: 12px; }
+  .tagit a:before {
+    content: "#"; }
+  .tagit a:hover {
+    text-decoration: none;
+    background: #F63F1B;
+    color: white; }
+
+.singlecontent {
+  padding: 10px 20px 10px 30px;
+  background: white; }
+
+.singlecontentp p:nth-of-type(1):first-letter {
+  font-family: "otsikkofontti";
+  font-size: 48px;
+  display: inline;
+  float: left;
+  margin: 0;
+  padding: 0;
+  line-height: 40px; }
+
+.singleaside {
+  padding: 40px 30px 20px 15px; }

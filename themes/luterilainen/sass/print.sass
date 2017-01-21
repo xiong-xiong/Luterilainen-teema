@@ -1,0 +1,21 @@
+.printlogo
+	width: 40%
+	height: auto
+	margin: 20px
+	display: none
+
+@media print 
+	body  
+		background: white
+		color: black 
+		margin: 0
+	.singlecontent
+		display: block
+		.printlogo
+			display: block
+	.nav-container
+		display: none
+	.navwrapper
+		display: none
+	.singleaside
+		display: none

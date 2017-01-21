@@ -1,0 +1,335 @@
+/*
+Theme Name: Luterilainen
+Theme URI: http://stenroos.net
+Author: Juha Stenroos
+Author URI: http://stenroos.net
+Description: Luterilainen.net sivuston bootstrap pohjainen teema
+Version: 1.0
+*/
+/*
+
+xx      xx    xx    xxxxxxxx    xxx     xx   xxxxxxxxx
+ xx    xx     xx    xx    xx    xxxx    xx   xx
+  xx  xx      xx    xx    xx    xx xx   xx   xx
+   xxxx       xx    xx    xx    xx  xx  xx   xx   xxxx
+  xx  xx      xx    xx    xx    xx   xx xx   xx     xx
+ xx    xx     xx    xx    xx    xx    xxxx   xx     xx
+xx      xx    xx    xxxxxxxx    xx     xxx   xxxxxxxxx
+
+xx      xx    xx    xxxxxxxx    xxx     xx   xxxxxxxxx
+ xx    xx     xx    xx    xx    xxxx    xx   xx
+  xx  xx      xx    xx    xx    xx xx   xx   xx
+   xxxx       xx    xx    xx    xx  xx  xx   xx   xxxx
+  xx  xx      xx    xx    xx    xx   xx xx   xx     xx
+ xx    xx     xx    xx    xx    xx    xxxx   xx     xx
+xx      xx    xx    xxxxxxxx    xx     xxx   xxxxxxxxx    
+
+
+                _     _     ||
+               (o\---/o)    || 
+                ( - - )    |xx|
+               _( (T) )_ __|__|__
+              / /     \ \/ / 
+             / /       \__/
+             \_)       / 
+               \   _  /
+               _)  |  (_
+              (___,'.___)
+
+*/
+
+/*
+COLORS
+
+Orange: #fa672f;
+
+*/
+
+
+
+@import url("css/normalize.css");
+@import url("css/bootstrap.css");
+@import url("css/font-awesome.min.css");
+
+@font-face{ 
+  font-family: 'otsikkofontti';
+  src: url('fonts/alex_jacque_-_coop_blackletter_regular_regular-webfont.eot');
+  src: url('fonts/alex_jacque_-_coop_blackletter_regular_regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/alex_jacque_-_coop_blackletter_regular_regular-webfont.woff') format('woff'),
+       url('fonts/alex_jacque_-_coop_blackletter_regular_regular-webfont.ttf') format('truetype');
+}
+@font-face{ 
+  font-family: 'valikkofontti';
+  src: url('fonts/overpass-regular-webfont.eot');
+  src: url('fonts/overpass-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/overpass-regular-webfont.woff') format('woff'),
+       url('fonts/overpass-regular-webfont.ttf') format('truetype');
+}
+
+@font-face{ 
+  font-family: 'leipatekstifontti';
+  src: url('fonts/andada-regular-webfont.eot');
+  src: url('fonts/andada-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/andada-regular-webfont.woff') format('woff'),
+       url('fonts/andada-regular-webfont.ttf') format('truetype');
+}
+
+* {
+  margin:0;
+  padding:0;
+ -webkit-margin-before: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-margin-after: 0px;
+}
+
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'leipatekstifontti';
+}
+
+/*Keskittää sisällön*/
+.container {
+	margin: auto;
+	width: 80%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+h1, h2, h3, h4 {
+font-family: 'otsikkofontti';
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #fa672f;
+}
+
+/*NAVIT ALKAA*/
+
+/*Nav container*/
+.nav-container {
+  margin: auto;
+  width: 80%;
+}
+
+
+.site-title {
+  text-align: center;
+  padding: 20px 0px 30px 0px;
+}
+
+.logoicon {
+  font-size: 80px;
+  text-align: center;
+  color: #fa672f;
+}
+
+.meta-nav, .main-nav {
+  text-align: center;
+}
+
+/*Meta navigaatio*/
+
+.meta-nav ul {
+list-style: none;
+padding: 0;
+font-family: 'valikkofontti'
+}
+
+.meta-nav ul li a{
+  color: black;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.meta-nav ul li a:hover {
+  color: #fa672f;
+}
+
+.meta-nav ul li {
+display: inline-block;
+padding: 10px 20px 10px 20px;
+}
+
+
+/*Main navigaatio*/
+.main-nav {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+#menu-main-menu, .menu{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.nav-container {
+  margin-bottom: 20px;
+}
+
+.main-nav ul {
+list-style: none;
+padding: 0px 0px 20px 0px;
+width: 100%;
+font-family: 'valikkofontti'
+
+}
+
+.main-nav ul li {
+display: inline-block;
+width: 15%;
+padding: 20px 0px 20px 0px;
+background: #fa672f;
+margin: 0px 0px 2px 0px;
+opacity: 1;
+}
+
+.main-nav ul li:hover {
+opacity: 0.8;
+cursor: pointer;
+}
+
+.main-nav ul li a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.main-nav ul li a:hover {
+text-decoration: none;
+}
+
+
+/*Navi corner koristelut*/
+
+.nav-bar-main {
+  position: relative;
+}
+
+.corner {
+  border-left: 1px solid black;
+  height: 10px;
+  position: absolute;
+}
+
+#corner2 {
+  bottom: 0px;
+}
+
+#corner3 {
+top:0px;
+right: 0px;
+}
+
+#corner4 {
+bottom: 0px;
+right: 0px;
+}
+
+/*NAVIT PÄÄTTYY*/
+
+
+/*FONT AWESOME IKONI TYYLIT*/
+
+
+.nostoicon {
+	font-size: 80px;
+	color: dimgrey;
+}
+
+/*SISÄLLÖN TYYLIT ALKAA*/
+
+.paanosto {
+  background: whitesmoke;
+  padding: 20px;
+  margin: 0px 40px 0px 40px;
+}
+
+.nosto {
+  text-align: center;
+}
+.nostot {
+  margin: 0px 40px 0px 40px;
+}
+
+
+/*Footer tyylit*/
+
+.footersection {
+  min-height: 200px;
+  background: #404040;
+  color: white;
+  padding-top: 30px;
+  margin-top: 20px;
+}
+#footernav a{
+
+  color: white;
+}
+
+
+/*TABLET*/
+
+/*MOBIILI*/
+@media screen and (max-width: 960px) {
+
+  .nav-container {
+    width: 90%;
+  }
+  .container {
+    width: 90%;
+  }
+  .main-nav ul li {
+  width: 30%;
+
+}
+/*Webkit navibugin korjaus*/
+#menu-main-menu li:nth-child(5) {
+  -webkit-margin-start: -4px;
+  }
+
+}
+
+
+/*MOBIILI*/
+@media screen and (max-width: 780px) {
+
+  .nav-container {
+    width: 94%;
+  }
+
+  .container {
+    width: 94%;
+  }
+
+  ul {
+    -webkit-margin-after: 0;
+     -webkit-margin-before: 0;
+
+  }
+
+  .main-nav ul li {
+width: 45%;
+
+}
+
+/*Webkit navibugin korjaus*/
+#menu-main-menu li:nth-child(5) {
+  -webkit-margin-start: 0px;
+  }
+
+#menu-main-menu li:nth-child(6) {
+  -webkit-margin-start: -4px;
+  }
+
+}
